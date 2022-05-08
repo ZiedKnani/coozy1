@@ -6,22 +6,20 @@ import Step2 from "./Components/Step2/Step2.js";
 import "./App.css";
 
 function App() {
-  return (
-    <Router>
-      <div className="App">
-        <header className="App-header">
-          <Nav></Nav>
-        </header>
-
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/step1" element={<Step1 />}></Route>
-          <Route path="/step2" element={<Step2 />}></Route>
-          <Route path="/searchPage" element={<searchPage />}></Route>
-        </Routes>
-      </div>
-    </Router>
-  );
+  // return (
+  //   <Router>
+  //     <div className="App">
+  //       <header className="App-header">
+  //         <Nav></Nav>
+  //       </header>
+  //       <Routes>
+  //         <Route path="/" element={<Home />}></Route>
+  //         <Route path="/step1" element={<Step1 />}></Route>
+  //         <Route path="/step2" element={<Step2 />}></Route>
+  //       </Routes>
+  //     </div>
+  //   </Router>
+  // );
 }
 
 export default App;
