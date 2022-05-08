@@ -1,0 +1,30 @@
+.App__nav {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+}
+
+.App__nav > h3 {
+  color: black;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bolder;
+  flex: 0.5;
+  text-align: center;
+}
+
+.App__nav__logo {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App__nav__logo > img {
+  width: 86px;
+  height: 86px;
+}

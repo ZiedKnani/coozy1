@@ -1,0 +1,430 @@
+.App_step2_top {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 760px;
+  background-color: #d9d9d9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.App_step2_top h3 {
+  padding: 20px 160px;
+  border: 1px solid black;
+  font-size: 4rem;
+  font-weight: 600;
+  color: black;
+}
+
+.App_step2_second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 330px;
+}
+
+.App_step2_second ul {
+  height: 100px;
+  width: 60%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App_step2_second ul li {
+  -webkit-box-flex: 0.1;
+      -ms-flex: 0.1;
+          flex: 0.1;
+  text-align: center;
+  padding: 20px;
+  margin: 5px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  color: black;
+}
+
+.App_step2_second article {
+  width: calc(60% - 50px);
+  padding: 20px;
+  height: 150px;
+  background-color: #d9d9d9;
+  margin-bottom: 30px;
+}
+
+.App_step2_second article h3 {
+  font-size: 1.6rem;
+  padding: 10px 0;
+}
+
+.App_step2_second article p {
+  font-size: 1.2rem;
+}
+
+.App_step2_second article button {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #d38570;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.App_step2_third {
+  width: 100%;
+  height: 880px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fac664;
+}
+
+.App_step2_third h3 {
+  margin-top: 40px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.App_step2_third .App_step2_third_content::-webkit-scrollbar {
+  display: none;
+}
+
+.App_step2_third .App_step2_third_content {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 60%;
+  height: 880px;
+  overflow: scroll;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App_step2_third .App_step2_third_content div {
+  width: 60%;
+  background-color: white;
+  padding: 10px 50px;
+  border: solid black 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App_step2_third .App_step2_third_content div h3 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+}
+
+.App_step2_third .App_step2_third_content div p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 20px;
+}
+
+.App_step2_third .App_step2_third_content div img {
+  margin-top: 20px;
+  width: 80%;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
+}
+
+.App_step2_fourth {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App_step2_fourth h3 {
+  font-size: 3rem;
+  padding: 20px;
+}
+
+.App_step2_fourth .App_Step2_foodselect {
+  margin-bottom: 50px;
+  width: 100%;
+  height: 430px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App_step2_fourth .App_Step2_foodselect ul {
+  width: 65%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App_step2_fourth .App_Step2_foodselect ul li {
+  -webkit-box-flex: 0.25;
+      -ms-flex: 0.25;
+          flex: 0.25;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 10px;
+  height: 350px;
+  background-color: #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.App_step2_fourth .App_Step2_foodselect ul li h2 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+}
+
+.App_step2_fourth .App_Step2_foodselect ul li button {
+  -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+  width: 170px;
+  max-height: 50px;
+  min-height: 50px;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 300;
+  background-color: #533c45;
+}
+
+.App_step2_fourth .App_Step2_foodselect button {
+  background-color: #533c45;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 40px;
+  width: 150px;
+  height: 60px;
+}
+
+.App_step2_fifth {
+  margin-bottom: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 880px;
+  width: 100%;
+}
+
+.App_step2_fifth h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.App_step2_fifth h3 span {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.App_step2_fifth ul {
+  margin-top: 20px;
+  width: 60%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  list-style: none;
+}
+
+.App_step2_fifth ul li {
+  margin: 10px;
+  border: 1px solid #f1c50e;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App_step2_fifth ul li img {
+  padding: 20px;
+  width: 46px;
+  height: 46px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.App_step2_fifth ul li h3 {
+  width: 80%;
+  font-size: 1.3rem;
+  padding: 5px;
+  text-align: center;
+}
+
+.App_step2_fifth ul li p {
+  width: 80%;
+  font-size: 1.2rem;
+  padding: 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .App_step2_fifth {
+    margin-top: 200px;
+    height: 1900px;
+  }
+  .App_step2_fifth ul {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  .App_step2_fourth {
+    height: 850px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .App_step2_fourth .App_Step2_foodselect ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 120px;
+  }
+  .App_step2_fourth .App_Step2_foodselect ul li {
+    width: 90%;
+    height: 250px;
+  }
+}
+/*# sourceMappingURL=Step2.css.map */
