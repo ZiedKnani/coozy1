@@ -8,10 +8,8 @@ import FifthSection from "./FifthSection";
 export default function Step1() {
   return (
     <div>
-      <TopSection></TopSection>
       <ThirdSection></ThirdSection>
 
-      <FourthSection></FourthSection>
       <SecondSection></SecondSection>
       <FifthSection></FifthSection>
       <Footer></Footer>

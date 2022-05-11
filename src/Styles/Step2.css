@@ -27,21 +27,26 @@
   border-radius: 20px;
   margin: 5px;
   line-height: 20px;
+  text-align: center;
+  
+  
+  
   
   
 }
-.item h4{
-  text-decoration:overline;
-  background-color: #790e43;
+.item p{
+  font-size: 15pxs;
+  
 
 }
-.item h2 {
-  font-size: large;
+.item p2{
+  color: plum;
+  font-size: 15px;
 }
-.item h3{
-  font-size: small;
-}
-.item li{
+.item p1 {
+  color: #d38570;}
+
+.item  div{
   width: 300px;
   height: 175px;
   -webkit-box-flex: 0.1;
@@ -52,6 +57,9 @@ padding: 20px;
 margin: 5px;
 background-color: #d9d9d9;
 border-radius: 10px;
+text-shadow: #790e43;
+text-decoration: overline;
+
 
 }
 .item button {

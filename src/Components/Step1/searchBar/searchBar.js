@@ -73,7 +73,14 @@ function SearchBar({ placeholder, data }) {
       )}
       <div className="listResult">
         <ul className="list">
-          {ingredients.length > 0 && ingredients.map((item) => <li>{item}</li>)}
+          {ingredients.length > 0 &&
+            ingredients.map((item) => (
+              <li>
+                {console.log(item)}
+                {item}
+                <br />
+              </li>
+            ))}
         </ul>
       </div>
       <div>

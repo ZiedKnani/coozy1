@@ -13,19 +13,20 @@ export default function ThirdSection() {
         <ReactLogo1 width={40} height={40} />
         {recipes.map((recipe) => {
           return (
-            <ul className="item" key={recipe.id}>
-              <li>
-                <h2> {recipe.name} </h2>
+            <div className="item" key={recipe.id}>
+              <h2> {recipe.name} </h2>
 
-                <p1>
-                  {" "}
-                  {recipe.primaryIngredients}
-                  {"\n"}
-                </p1>
-                <h5> {recipe.ingridients} </h5>
-                <button hreff="recipe.link">learn more</button>
-              </li>
-            </ul>
+              <p>
+                <p1>{recipe.selectedIngredients.length} matched ingredients</p1>
+                <br />
+                <p2>
+                  {recipe.primaryIngredients.length -
+                    recipe.selectedIngredients.length}{" "}
+                  missing ingridients{" "}
+                </p2>
+              </p>
+              <button hreff="recipe.link">learn more</button>
+            </div>
           );
         })}
 
