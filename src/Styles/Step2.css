@@ -15,10 +15,57 @@
       -ms-flex-direction: column;
           flex-direction: column;
   height: 760px;
-  background-color: #d9d9d9;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+.item{
+  width: 700px;
+  height: 250px;
+  font-family: 'Montserrat';
+  background-color: #494949;
+  border-radius: 20px;
+  margin: 5px;
+  line-height: 20px;
+  
+  
+}
+.item h4{
+  text-decoration:overline;
+  background-color: #790e43;
+
+}
+.item h2 {
+  font-size: large;
+}
+.item h3{
+  font-size: small;
+}
+.item li{
+  width: 300px;
+  height: 175px;
+  -webkit-box-flex: 0.1;
+  -ms-flex: 0.1;
+      flex: 0.1;
+text-align: center;
+padding: 20px;
+margin: 5px;
+background-color: #d9d9d9;
+border-radius: 10px;
+
+}
+.item button {
+  width: 75px;
+  height: 35px;
+  background-color: #790e43;
+  color: #ccc;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+  cursor: pointer;
 }
 
 .App_step2_top h3 {

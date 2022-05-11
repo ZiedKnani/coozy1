@@ -1,0 +1,58 @@
+[{"name":"hawain pizza",
+    "genre":"",
+    "health":"",
+    "selectedIngredients":[" baking soda "," sour cream "," cheese "],
+    "primaryIngredients":[" baking soda"," olive oil "," flour "," sour cream "," cheese "],
+    "secondaryIngredients":[" pineapple "," salami "],
+    "missingIngredients" : ["flour"]
+},
+{"name":"hawain pizza",
+    "genre":"",
+    "health":"",
+    "selectedIngredients":["baking soda","sour cream","cheese"],
+    "primaryIngredients":["baking soda","olive oil","flour","sour cream","cheese"],
+    "secondaryIngredients":["pineapple","salami"],
+    "missingIngredients" : ["flour"]
+},
+{"name":"hawain pizza",
+    "genre":"",
+    "health":"",
+    "selectedIngredients":["baking soda","sour cream","cheese"],
+    "primaryIngredients":["baking soda","olive oil","flour","sour cream","cheese"],
+    "secondaryIngredients":["pineapple","salami"],
+    "missingIngredients" : ["flour"]
+},
+{"name":"hawain pizza",
+    "genre":"",
+    "health":"",
+    "selectedIngredients":["baking soda","sour cream","cheese"],
+    "primaryIngredients":["baking soda","olive oil","flour","sour cream","cheese"],
+    "secondaryIngredients":["pineapple","salami"],
+    "missingIngredients" : ["flour"]
+},
+{"name":"hawain pizza",
+    "genre":"",
+    "health":"",
+    "selectedIngredients":["baking soda "," sour cream "," cheese "],
+    "primaryIngredients":["baking soda "," olive oil "," flour "," sour cream ","cheese "],
+    "secondaryIngredients":["pineapple","salami"],
+    "missingIngredients" : ["flour"]
+},
+{"name":"hawain pizza",
+    "genre":"",
+    "health":"",
+    "selectedIngredients":["baking soda","sour cream","cheese"],
+    "primaryIngredients":["baking soda","olive oil","flour","sour cream","cheese"],
+    "secondaryIngredients":["pineapple","salami"],
+    "missingIngredients" : ["flour"]
+},
+{"name":"hawain pizza",
+    "genre":"",
+    "health":"",
+    "selectedIngredients":["baking soda","sour cream","cheese"],
+    "primaryIngredients":["baking soda","olive oil","flour","sour cream","cheese"],
+    "secondaryIngredients":["pineapple","salami"],
+    "missingIngredients" : ["flour"]
+}
+
+]

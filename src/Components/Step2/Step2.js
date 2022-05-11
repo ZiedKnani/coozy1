@@ -9,9 +9,10 @@ export default function Step1() {
   return (
     <div>
       <TopSection></TopSection>
-      <SecondSection></SecondSection>
       <ThirdSection></ThirdSection>
+
       <FourthSection></FourthSection>
+      <SecondSection></SecondSection>
       <FifthSection></FifthSection>
       <Footer></Footer>
     </div>
